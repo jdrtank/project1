@@ -1,0 +1,212 @@
+﻿@charset "utf-8";
+/* 초기화 */
+@media screen {
+	
+}
+/*
+
+*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: 'Exo', sans-serif;
+	font-size:12px;
+	color: #666;
+}
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-size:80px;
+}
+h2 {
+	font-family: 'Satisfy', cursive;
+	font-size:40px;
+}
+span {
+	font-weight: bold;
+	color: #ff6600;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.w1300 {
+	width: 1350px;
+	margin: 0 auto;
+}
+
+/*============================================================*/
+
+header {
+	height: 60px;
+	background-color: rgba(255,255,255,1);
+	background-color: #fff;
+	z-index: 100;
+	position: relative;
+}
+header > a > img {
+	width: 98px;
+	height: 43px;
+	padding-top: 8px;
+	float: left;
+	margin-right: 30px;
+}
+header nav > ul {
+	overflow: hidden;
+	padding: 24px 0;
+}
+header nav > ul > li {
+	float: left;
+}
+header nav > ul > li > a {
+	display: block;
+	width:200px;
+	text-align:center;
+	border-right: 1px solid #ccc; 
+}
+header nav > ul > li > a:hover, header nav ul .dropdown:hover > a {
+	font-weight: bold;
+}
+
+header nav ul .dropdown:hover .dropdown-con {
+	display: block;
+}
+header nav ul .dropdown .dropdown-con {
+	display:none;
+	overflow:hidden;
+	width: 200px;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	z-index: 90;
+}
+header nav > ul > li .dropdown-con > a {
+	display: block;
+	width: 200px;
+	padding: 15px;
+	float: left;
+}
+header nav > ul > li .dropdown-con > a:hover {
+	font-weight: bold;
+	background-color: #ddd;
+}
+
+/*============================================================*/
+
+
+
+#main_img {
+	height: 800px;
+	width: 100%;
+	background: url('../image/main_slide_003.jpg');
+	background-position:center;
+	position: relative;
+}
+#main_img .text {
+	width: 500px;
+	text-align: center;
+	padding-top: 50px;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -250px;
+	background-color: #fff;
+	position: absolute;
+}
+
+#main_a {
+	margin: 150px;
+	text-align: center;
+}
+
+#main_b {
+	overflow: hidden;
+	height: auto;
+
+
+}
+
+
+#main_b > ul > li:hover {
+	background-size: 110%;
+}
+#main_b > ul > li {
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin: 15px;
+	text-align: center;
+	line-height: 300px;
+}
+#main_b > ul > li > a {
+	font-family: 'Satisfy', cursive;
+	font-size:40px;
+	color: #fff;
+}
+#main_b1 {
+	background: url('../image/main_gallery_01.jpg');
+	background-position:center;
+	background-size: 100%;
+}
+#main_b2 {
+	background: url('../image/main_gallery_02.jpg');
+	background-position:center;
+	background-size: 100%;
+}
+#main_b3 {
+	background: url('../image/main_gallery_03.jpg');
+	background-position:center;
+	background-size: 100%;
+}
+#main_b4 {
+	background: url('../image/IMGN_AL210510_VYRAO_04_R1.jpg');
+	background-position:center;
+	background-size: 100%;
+}
+#main_b5 {
+	background: url('../image/main_gallery_04.jpg');
+	background-position:center;
+	background-size: 100%;
+}
+#main_b6 {
+	background: url('../image/main_gallery_05.jpg');
+	background-position:center;
+	background-size: 100%;
+}
+#main_b7 {
+	background: url('../image/main_gallery_06.jpg');
+	background-position:center;
+	background-size: 100%;
+}
+#main_b8 {
+	background: url('../image/main_gallery_07.jpg');
+	background-position:center;
+	background-size: 100%;
+}
+
+/*============================================================*/
+
+
+
+footer {
+	clear:all;
+	margin-top: 50px; 
+	height: 300px;
+	background-color: #343434;
+}
+footer ul > li {
+	width: 300px;
+	margin: 30px 10px;
+	float: left;
+}
+footer ul > li h2, footer ul > li p {
+	color: #fff;
+}
+#in_img a > img {
+	width: 24%;
+}
+
+
+.text {
+	opacity: .7;
+}
